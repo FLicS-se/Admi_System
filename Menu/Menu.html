@@ -1,17 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+</head>
+
 <center>
 
-<form>
-<p>This page is All Menu.</p>
-</form>
-
-<form action="menu_edit.php" method="get">
+<form action="Menu_edit.php" method="get">
 <dl>
-<dt> Menu </dt>
+<h1> お品書き一覧 </h1>
+<p>編集したいお品書きにチェックボックスを入れ、editボタンを押してください。</p>
 <dd>
 
 <ul>
-<li><input id="menu_1" type="checkbox" name="menu[]" value="TosaTsuru" />
-<label for="menu_1"> Tosa - Tsuru </label></li>
+<li><input id="menu_1" type="checkbox" name="menu[]" value="土佐鶴" />
+<label for="menu_1"> 土佐鶴 </label></li>
+</ul>
+<ul>
+<li><input id="menu_2" type="checkbox" name="menu[]" value="土佐山田の地酒" />
+<label for="menu_2"> 土佐山田の地酒 </label></li>
 </ul>
 
 </dd>
@@ -20,11 +27,11 @@
 <input type="submit" value="edit" />
 </form>
 
-<form action="menu_update.php" method="post">
+<form action="Menu_update.php" method="post">
 <input type="submit" value="update!" >
 </form>
 
-<form action="menu_unjump.php" method="post">
+<form action="Menu_unjump.php" method="post">
 <input type="submit" value="back">
 </form>
 

@@ -1,22 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+</head>
+
 <center>
+
+<h1>店舗情報</h1>
+<p>店舗情報の編集が行えます。編集後は、updateボタンを押してください。</p>
 
 <form>
 <dl>
 
-<dt>Tavern</dt>
+<dt>店舗名</dt>
 <dd><input name="tenpo" type="text" id="tenpo" size="50" maxlength="32" /></dd>
-<dt>about</dt>
+<dt>概要</dt>
 <dd>
 <textarea name="about" id="about" cols="50" rows="10"></textarea>
 </dd>
 </dl>
 </form>
 
-<form action="info_edit.php" method="post">
+<form action="Info_edit.php" method="post">
 <input type="submit" value="update!" >
 </form>
 
-<form action="info_unjump.php" method="post">
+<form action="Info_unjump.php" method="post">
 <input type="submit" value="back" >
 </form>
 

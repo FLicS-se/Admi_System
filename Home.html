@@ -1,19 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+</head>
+
 <center>
+<h1>ふらっとやまだ管理システム</h1>
+<p>各種、編集を行いたい場合は以下のボタンを押してください。</p>
+
+<form action="./Info/Info_jump.php" method="post">
+<input type="submit" value="店舗情報" />
+</form>
+
+<form action="./Menu/Menu_jump.php" method="post">
+<input type="submit" value="お品書き管理" />
+</form>
+
+<form action="./Reserv/Reserv_jump.php" method="post">
+<input type="submit" value="予約者一覧" />
+</form>
 
 <form>
-<p>This is a Home page. </p> <p><a href="./Login.html">Log Out</a></p>
-</form>
-
-<form action="info_jump.php" method="post">
-<input type="submit" value="Infomation" />
-</form>
-
-<form action="menu_jump.php" method="post">
-<input type="submit" value="Menu" />
-</form>
-
-<form action="reserv_jump.php" method="post">
-<input type="submit" value="Reserv" />
+<p><a href="./Login/Login.html">Log Out</a></p>
 </form>
 
 </center>
