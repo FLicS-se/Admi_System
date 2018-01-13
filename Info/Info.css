@@ -90,3 +90,25 @@ dt
     font-size: 30px;
 }
 
+#image
+{
+    position: relative;
+    top: -480px;
+    left: 380px;
+}
+
+#photo
+{
+    position: relative;
+    right: 20px;
+    top: -5px;
+}
+
+#sent_button
+{
+    font-size: 20px;
+    width: 120px;
+    height: 2em;
+    position: relative;
+    top: 5px;
+}
