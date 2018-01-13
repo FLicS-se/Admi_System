@@ -1,0 +1,114 @@
+body
+{
+    font-family: Meriyo;
+}
+
+#site-box
+{
+    //background: #eeeeee;
+    width: 800px;
+    height: 680px;
+    margin: 5px auto;
+}
+
+#title
+{
+    height: 110px;
+}
+
+#description
+{
+    height: 78px;
+    position: relative;
+    top: -18px;
+}
+
+#menu
+{
+    float: left;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 14px;
+}
+
+#edit
+{
+    float: left;
+    width: 250px;
+    height: 80px;
+    position: relative;
+    left: 5px;
+}
+
+#update
+{
+    clear: left;
+    width: 250px;
+    height: 80px;
+    position: relative;
+    left: 270px;
+    top: -102px;
+}
+
+#back
+{
+    clear: left;
+    width: 250px;
+    height: 80px;
+    position: relative;
+    left: 270px;
+    top: -100px;
+}
+
+#menu1
+{   
+    position: relative;
+    left: -190px;
+    top:10px;
+}
+
+#menu2
+{
+    position: relative;
+    left: -158px;
+    top: 20px;
+}
+
+h1
+{
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+}
+
+p
+{
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+}
+
+#edit_button
+{
+    width:110px;
+    height:2.5em;
+    font-size: 30px;
+}
+
+#update_button
+{
+    width:120px;
+    height:1.5em;
+    font-size: 30px;
+    position: relative;
+    top: 28px;
+}
+
+#back_button
+{
+    width:120px;
+    height:1.5em;
+    font-size: 30px;
+}
+

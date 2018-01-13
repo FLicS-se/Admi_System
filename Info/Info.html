@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+<title>ふらっとやまだ: 店舗情報</title>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="sample.css"/>
+<link rel="stylesheet" type="text/css" href="Info.css"/>
 </head>
 
+<body>
+<div id="site-box">
 <center>
 
+<div id="title">
 <h1>店舗情報</h1>
 <p>店舗情報の編集が行えます。編集後は、updateボタンを押してください。</p>
+</div>
 
+<div id="info">
 <form>
 <dl>
 
 <dt>店舗名</dt>
-<dd><input name="tenpo" type="text" id="tenpo" size="50" maxlength="32" /></dd>
+<dd><input id="name" name="tenpo" type="text" id="tenpo" size="50" maxlength="32" /></dd>
 <dt>概要</dt>
 <dd>
 <textarea name="about" id="about" cols="50" rows="10"></textarea>
 </dd>
 </dl>
 </form>
+</div>
+
+<div id="update">
+<form action="Info_edit.php" method="post">
+<input id="update_button" type="submit" value="update!" >
+</form>
+</div>
+
+<div id="back">
+<form action="Info_unjump.php" method="post">
+<input id="back_button" type="submit" value="back" >
+</form>
+</div>
 
 <form action="Image_upload.php" method="post" enctype="multipart/form-data">
 <dl>
@@ -31,12 +50,8 @@
 <input type="submit" value="sent Image" />
 </form>
 
-<form action="Info_edit.php" method="post">
-<input type="submit" value="update!" >
-</form>
-
-<form action="Info_unjump.php" method="post">
-<input type="submit" value="back" >
-</form>
-
 </center>
+
+</div>
+</body>
+</html>

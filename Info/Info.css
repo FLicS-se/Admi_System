@@ -1,0 +1,92 @@
+body
+{
+    font-family: Meriyo;
+}
+
+#site-box
+{
+    //background: #eeeeee;
+    width: 800px;
+    height: 680px;
+    margin: 5px auto;
+}
+
+#title
+{
+    height: 180px;
+}
+
+#info
+{
+    float: left;
+    width: 600px;
+    height: 450px;
+}
+
+#update
+{
+    float: left;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 298px;
+}
+
+#back
+{
+    clear: left;
+    height: 60px;
+    width: 200px;
+    position: relative;
+    top: -50px;
+    left: 300px;
+}
+
+h1
+{
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+}
+
+p
+{
+    font-size: 20px;
+    position: relative;
+    top: 65px;
+}
+
+#name
+{
+    width: 300px;
+}
+
+#about
+{
+    width: 550px;
+    height: 350px;
+    overflow: auto;
+}
+
+dt
+{
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+}
+#update_button
+{
+    width:120px;
+    height:1.5em;
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+}
+
+#back_button
+{
+    width:120px;
+    height:1.5em;
+    font-size: 30px;
+}
+

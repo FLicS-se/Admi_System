@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+<title>ログイン画面</title>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="sample.css"/>
+<link rel="stylesheet" type="text/css" href="Login.css"/>
 </head>
 
+<body>
+<div id="site-box">
 <center>
+
+<div id="title">
 <h1>ふらっとやまだ管理システム</h1>
+</div>
+
+<div id="setumei">
 <p>ログインIDとパスワードを入力してください。</p>
+</div>
+
 </center>
 
+<div id="login">
 <center>
 <form action="Login.php" method="post">
 <dl>
+<div id="ID">
 <dt>ID: <input type="text" name="my_id" id="my_id" /></dt>
+</div>
+<div id="PW">
 <dt>PW: <input type="password" name="password" id="password" /></dt>
+</div>
 </dl>
-<input type="submit" value="sent" />
+<input id="sent_button" type="submit" value="Login" />
 </form>
 </center>
+</div>
+
+</div>
+</body>
+</html>

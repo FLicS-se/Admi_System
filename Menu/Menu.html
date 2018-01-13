@@ -1,39 +1,66 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+<title>ふらっとやまだ: お品書き一覧</title>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="sample.css"/>
+<link rel="stylesheet" type="text/css" href="Menu.css"/>
 </head>
+
+<body>
+<div id="site-box">
 
 <center>
 
 <form action="Menu_edit.php" method="get">
 <dl>
+
+<div id="title">
 <h1> お品書き一覧 </h1>
+</div>
+
+<div id="description">
 <p>編集したいお品書きにチェックボックスを入れ、editボタンを押してください。</p>
+</div>
 <dd>
 
+<div id="menu">
+<div id="menu1">
 <ul>
 <li><input id="menu_1" type="checkbox" name="menu[]" value="土佐鶴" />
 <label for="menu_1"> 土佐鶴 </label></li>
 </ul>
+</div>
+
+<div id="menu2">
 <ul>
 <li><input id="menu_2" type="checkbox" name="menu[]" value="土佐山田の地酒" />
 <label for="menu_2"> 土佐山田の地酒 </label></li>
 </ul>
+</div>
+</div>
 
 </dd>
 </dl>
 
-<input type="submit" value="edit" />
+<div id="edit">
+<input id="edit_button" type="submit" value="edit" />
+</div>
 </form>
 
 <form action="Menu_update.php" method="post">
-<input type="submit" value="update!" >
+<div id="update">
+<input id="update_button" type="submit" value="update!" >
+</div>
 </form>
 
 <form action="Menu_unjump.php" method="post">
-<input type="submit" value="back">
+<div id="back">
+<input id="back_button" type="submit" value="back">
+</div>
 </form>
 
 </center>
+
+</div>
+</body>
+</html>
