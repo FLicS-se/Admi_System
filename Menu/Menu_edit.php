@@ -3,7 +3,7 @@
 <head>
 <title>ふらっとやまだ: お品書き編集</title>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="Menu.css"/>
+<link rel="stylesheet" type="text/css" href="MenuEdit.css"/>
 </head>
 
 <body>
@@ -13,6 +13,7 @@
 <div id="title">
 <h1> お品書き編集 </h1>
 </div>
+<div id="description">
 <?php
 if ($_REQUEST['menu'] == '') {
 	print('戻るボタンを押してメニューを選択してください。');
@@ -22,6 +23,7 @@ foreach($_REQUEST['menu'] as $reserve) {
 	
 }
 ?>
+</div>
 
 <div id="menu">
 <form>
