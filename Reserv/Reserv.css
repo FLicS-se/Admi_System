@@ -16,6 +16,21 @@ body
     height: 120px;
 }
 
+h1
+{
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+}
+
+p
+{
+    font-size: 20px;
+    position: relative;
+    top: 65px;
+}
+
+
 #reserv
 {
     background: blue;
@@ -28,12 +43,6 @@ body
     top: 400px;
 }
 
-h1
-{
-    font-size: 40px;
-    position: relative;
-    top: 50px;
-}
 
 #back_button
 {

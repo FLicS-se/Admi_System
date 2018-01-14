@@ -23,6 +23,13 @@ body
     top: -18px;
 }
 
+#info
+{
+    float: left;
+    width: 600px;
+    height: 450px;
+}
+
 #menu
 {
     float: left;
