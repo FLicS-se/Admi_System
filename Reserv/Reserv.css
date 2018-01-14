@@ -16,6 +16,37 @@ body
     height: 120px;
 }
 
+#update
+{
+    left: 180px;
+    height: 80px;
+    position: relative;
+    top: 180px;
+}
+
+#back
+{
+    left: 180px;
+    height: 80px;
+    position: relative;
+    top: 200px;
+}
+
+#reserv1
+{   
+    position: relative;
+    left: -190px;
+    top: 70px;
+}
+
+#reserv2
+{
+    position: relative;
+    left: -190px;
+    top: 75px;
+}
+
+
 h1
 {
     font-size: 40px;
@@ -31,20 +62,18 @@ p
 }
 
 
-#reserv
+#update_button
 {
-    background: blue;
-}
-
-#back
-{
-    height: 80px;
+    width:120px;
+    height:1.5em;
+    font-size: 30px;
     position: relative;
-    top: 400px;
+    top: 28px;
 }
-
 
 #back_button
 {
+    width:120px;
+    height:1.5em;
     font-size: 30px;
 }
