@@ -33,8 +33,6 @@ body
     top: 41px;
 }
 
-
-
 #update
 {
     clear: left;
@@ -88,7 +86,7 @@ dt
     height:1.5em;
     font-size: 30px;
     position: relative;
-    top: 28px;
+    top: 30px;
 }
 
 #back_button
@@ -96,5 +94,12 @@ dt
     width:120px;
     height:1.5em;
     font-size: 30px;
+}
+
+#taste
+{
+    position: relative;
+    right: 20px;
+    top: 50px;
 }
 

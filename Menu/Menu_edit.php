@@ -16,11 +16,10 @@
 <div id="description">
 <?php
 if ($_REQUEST['menu'] == '') {
-	print('戻るボタンを押してメニューを選択してください。');
+	print('戻るボタンを押してチェックボックスにチェックを入れてください。');
 }
 foreach($_REQUEST['menu'] as $reserve) {
 	print('現在、' . htmlspecialchars($reserve, ENT_QUOTES) . 'を編集しています。<br />');
-	
 }
 ?>
 </div>
@@ -39,6 +38,7 @@ foreach($_REQUEST['menu'] as $reserve) {
 </form>
 </div>
 
+<div id="taste">
 <dt>味情報</dt>
 <select taste="pref" id="pref">
 <?php
@@ -49,6 +49,7 @@ foreach($pref as $pref) {
 }
 ?>
 </select>
+</div>
 
 <div id="update">
 <form action="./Menu_update.php" method="post">
