@@ -37,6 +37,17 @@ foreach($_REQUEST['menu'] as $reserve) {
 </form>
 </div>
 
+<dt>味情報</dt>
+<select taste="pref" id="pref">
+<?php
+$pref = array('甘み','旨味','苦味','酸味','辛味(塩味)');
+foreach($pref as $pref) {
+
+	print('<option value="' . $pref . '">' . $pref . '</option>');
+}
+?>
+</select>
+
 <div id="update">
 <form action="./Menu_update.php" method="post">
 <input id="update_button" type="submit" value="同期" >
