@@ -13,9 +13,6 @@
 <div id="title">
 <h1> お品書き編集 </h1>
 </div>
-</center>
-
-<div id="description">
 <?php
 if ($_REQUEST['menu'] == '') {
 	print('戻るボタンを押してメニューを選択してください。');
@@ -25,9 +22,8 @@ foreach($_REQUEST['menu'] as $reserve) {
 	
 }
 ?>
-</div>
 
-<div id="info">
+<div id="menu">
 <form>
 <dl>
 
