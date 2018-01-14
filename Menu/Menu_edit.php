@@ -9,7 +9,7 @@
 
 <?php
 if ($_REQUEST['menu'] == '') {
-	print('backボタンを押してメニューを選択してください。');
+	print('戻るボタンを押してメニューを選択してください。');
 }
 foreach($_REQUEST['menu'] as $reserve) {
 	print('現在、' . htmlspecialchars($reserve, ENT_QUOTES) . 'を編集しています。<br />');
@@ -24,7 +24,7 @@ foreach($_REQUEST['menu'] as $reserve) {
 </form>
 
 <form action="./Menu.html" method="post">
-<input type="submit" value="back" id="bt"/>
+<input type="submit" value="戻る" id="bt"/>
 </form>
 
 </center>

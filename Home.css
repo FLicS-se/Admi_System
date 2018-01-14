@@ -88,8 +88,17 @@ p
 
 #logout_button
 {
-    font-size: 35px;
+    font-size: 30px;
     position: relative;
     left: 600px;
     top: -300px;
+}
+
+#clock
+{
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    
 }

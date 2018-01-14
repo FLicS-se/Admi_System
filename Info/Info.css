@@ -100,8 +100,8 @@ dt
 #photo
 {
     position: relative;
-    right: 20px;
-    top: -5px;
+    right: 60px;
+    top: 10px;
 }
 
 #sent_button
@@ -110,5 +110,6 @@ dt
     width: 120px;
     height: 2em;
     position: relative;
-    top: 5px;
+    top: 15px;
+    right: 75px;
 }
