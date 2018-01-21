@@ -1,0 +1,79 @@
+body
+{
+    font-family: Meiriyo;
+}
+
+#site-box
+{
+    //background: #eeeeee;
+    width: 800px;
+    height: 680px;
+    margin: 5px auto;
+}
+
+#title
+{
+    height: 120px;
+}
+
+#update
+{
+    left: 180px;
+    height: 80px;
+    position: relative;
+    top: 180px;
+}
+
+#back
+{
+    left: 180px;
+    height: 80px;
+    position: relative;
+    top: 200px;
+}
+
+#reserv1
+{   
+    position: relative;
+    left: -190px;
+    top: 70px;
+}
+
+#reserv2
+{
+    position: relative;
+    left: -190px;
+    top: 75px;
+}
+
+
+h1
+{
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+}
+
+p
+{
+    font-size: 20px;
+    position: relative;
+    top: 65px;
+}
+
+
+#update_button
+{
+    width:120px;
+    height:1.5em;
+    font-size: 30px;
+    position: relative;
+    top: 28px;
+}
+
+#back_button
+{
+    width:120px;
+    height:1.5em;
+    font-size: 30px;
+}
